@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body { 
+  margin: 0; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+    sans-serif; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+} 
+ 
+code { 
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 
+    monospace; 
+} 
+.primary-nav{
+  background-color: bisque;
+  padding: 32px 40px;
+}
+nav a{
+  margin-left:16px;
+}
+/* Home.css */
+.carousel-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel-slide img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.carousel-slide p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.carousel-slide button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.carousel-slide button:hover {
+  background-color: #b35a00;
+}
+/* FindRoutes.css */
+.container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+/* Add styles for the search container */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style the search input */
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Style the search button */
+.search-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Change button style on hover */
+.search-button:hover {
+  background-color: #0056b3;
+}
+/* Add styles for the card container */
+.card {
+  border: 1px solid #ddd; /* Add a border with 1px width and a gray color */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 20px; /* Add padding for the content inside the card */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+  margin: 10px; /* Add margin between cards */
+  display: inline-block; /* Display cards in a row */
+  width: 300px; /* Set the width of the card */
+}
+
+/* Style the card title */
+.card h5.card-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Style the card image */
+.card-img-border {
+  border: 1px solid #ddd; /* Add a border to the image */
+  border-radius: 10px; /* Add rounded corners to the image border */
+  display: inline-block;
+  padding: 5px; /* Add padding to the image border */
+}
+
+/* Style the "BOOK NOW" button */
+.card button {
+  background-color: #007BFF; /* Change the background color */
+  color: #fff; /* Change the text color */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change button style on hover */
+.card button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the search input */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style the route list container */
+.route-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* Add styles for the button */
+button {
+  background-color: #007BFF; /* Change the background color */
+  color: #fff; /* Change the text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Change button style on hover */
+button:hover {
+  background-color: #0056b3;
+}
+/* Style the select container */
+.select-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Style the select element */
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f5f5f5; /* Add a background color */
+  color: #333; /* Change the text color */
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer;
+}
+
+/* Style the option elements */
+option {
+  padding: 5px;
+}
+
+/* Add hover effect for the select element (optional) */
+select:hover {
+  border: 1px solid #007BFF; /* Change border color on hover */
+}
+/* Style the container for bus types */
+.bus-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style the card container */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  width: 300px;
+}
+
+/* Style the card title */
+.card h5.card-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Style the card content */
+.card p.card-text {
+  font-size: 16px;
+}
+/* CSS for TravelBus Component */
+.bus-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.bus-card {
+  border: 1px solid #ccc; /* Add a border to the card */
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  padding: 20px;
+  width: 280px; /* Set the card width as needed */
+  background-color: #fff; /* Card background color */
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.bus-card:hover {
+  transform: scale(1.05); /* Add a hover effect to scale the card */
+}
+
+.bus-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Rounded corners for the image */
+}
+
+.bus-details {
+  margin-top: 10px;
+}
+
+.bus-details h3 {
+  font-size: 1.2rem; /* Adjust font size as needed */
+  margin: 0;
+}
+
+.bus-details p {
+  font-size: 1rem; /* Adjust font size as needed */
+  color: #777;
+  margin: 0;
+}
+
+button {
+  background-color: #1c79dc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #446ebb; /* Darker shade on hover */
+}
+.bold-black-text {
+  font-weight: bold;
+  color: black;
+}

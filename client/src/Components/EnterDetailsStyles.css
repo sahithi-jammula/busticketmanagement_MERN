@@ -1,0 +1,231 @@
+/* EnterDetailsStyles.css */
+
+/* Container style */
+.details-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Heading style */
+  .details-heading {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Input fields style */
+  .details-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Select box style */
+  .details-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button style */
+  details-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  details-button:hover {
+    background-color: #0056b3;
+  }
+  /* EnterDetailsStyles.css */
+
+/* Container styles */
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-align: center;
+  background: url('https://i.pinimg.com/564x/a1/97/e7/a197e742eb4921ce6aa871930b795cd8.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Other styles can be added here for different elements in your app */
+
+/* Style for the form elements */
+.container input,
+.container select {
+  width: 200px;
+  margin: 5px 0;
+}
+
+/* Add other styling as needed */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  text-align: center;
+ 
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.seat-container {
+  margin-top: 20px;
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.seat-button {
+  background-color: #ccc;
+  border:black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.seat-button:disabled {
+  background-color: #f7f7f7;
+  cursor: not-allowed;
+}
+/* ... (previous styles) */
+
+.seat-container {
+  margin-top: 20px;
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.seat-button {
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add a class to represent a selected seat */
+.seat-button.selected {
+  background-color: #007bff;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+/* Style for disabled seats */
+.seat-button:disabled {
+  background-color: #f7f7f7;
+  cursor: not-allowed;
+}
+.container {
+  display: flex;
+}
+
+/* Styles for the seat container on the right side */
+.seat-container {
+  flex: 1;
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: repeat(7, 1fr); /* Define 4 rows */
+  width: 60%;
+}
+
+.seat-button {
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add a class to represent a selected seat */
+.seat-button.selected {
+  background-color: #007bff;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+/* Style for disabled seats */
+.seat-button:disabled {
+  background-color: #f7f7f7;
+  cursor: not-allowed;
+}
+
+/* Styles for the left side content (form) */
+.left-content {
+  flex: 1;
+  padding: 20px;
+}
